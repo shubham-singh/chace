@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import ButtonLink from "./buttonLink";
 
 export default function Hero() {
   return (
@@ -10,15 +11,11 @@ export default function Hero() {
         <h2 className="my-2">
           the simplest way to integrate investments in India
         </h2>
-        <h6 className="my-2 text-secondary-accent-color">
+        <h6 className="my-2 text-gray-500">
           Our APIs allow you to offer investment services to your users inside
           your app
         </h6>
-        <Link href="https://investing.chace.co.in/contact">
-          <a>
-            <button className="p-4 bg-black text-white focus:outline-accent">Request API Keys</button>
-          </a>
-        </Link>
+        <ButtonLink href="https://investing.chace.co.in/contact">Request API Keys</ButtonLink>
       </div>
       <img src="/images/svg/hero.svg" alt="hero" />
     </div>
