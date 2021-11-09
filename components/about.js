@@ -3,7 +3,7 @@ import Card from "./card";
 
 export default function About() {
   return (
-    <div id="about" className="flex flex-col justify-center items-center mt-28">
+    <div id="about" className="flex flex-col justify-center items-center mb-28">
       <h2>Enter the capital markets of the world</h2>
       <h6 className="text-gray-500">
         We are building an interconnected system of broker-dealers, registered

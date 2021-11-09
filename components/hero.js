@@ -4,8 +4,7 @@ import ButtonLink from "./buttonLink";
 
 export default function Hero() {
   return (
-    // <div id="hero" className="flex row wrap justify-space-between align-center">
-    <div id="hero" className="flex flex-row justify-between items-center">
+    <div id="hero" className="flex flex-row justify-between items-center mb-28">
       <div>
         <h1 className="text-main-accent-color">chace</h1>
         <h2 className="my-2">
