@@ -13,7 +13,7 @@ export default function Features() {
         your users.
       </h6>
 
-      <div className="flex flex-col items-center flex-wrap my-4 w-full">
+      <div className="flex flex-col justify-center items-center flex-wrap my-4 w-full">
         <Card
           size="large"
           additionalCSS="bg-yellow-500 flex-row justify-center items-center"
@@ -59,7 +59,7 @@ export default function Features() {
         </Card>
       </div>
 
-      <div className="flex flex-row justify-center items-center">
+      <div className="flex flex-row flex-wrap justify-center items-center">
         <div>
           <h5 className="font-semibold">APIs for the whole investment management process</h5>
           <h6>

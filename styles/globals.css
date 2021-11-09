@@ -14,6 +14,7 @@ body {
   background: #FBBF24;
 }
 
+
 body {
   max-width: 90%;
   margin: 0 auto;
@@ -82,4 +83,11 @@ h6 {
 
 .bg-color-white {
   background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    max-width: 100%;
+  }
 }

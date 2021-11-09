@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function Navbar() {
     return (
-        <nav className="flex row justify-between items-baseline sticky top-0 bg-white z-10">
+        <nav className="flex flex-col md:flex-row justify-between items-baseline sticky top-0 bg-white z-10">
             <h1 className="text-yellow-500">chace</h1>
             <div className="flex flex-row">
                 <Link href="/#hero">

@@ -9,7 +9,7 @@ export default function About() {
         We are building an interconnected system of broker-dealers, registered
         investment advisors, and exchanges
       </h6>
-      <div className="flex flex-wrap my-4">
+      <div className="flex justify-center flex-wrap my-4">
         <Card size="small">
             <h6 className="text-yellow-400 font-bold">
             Quick integration

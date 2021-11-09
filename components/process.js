@@ -8,6 +8,7 @@ export default function Process() {
       <h6 className="text-gray-500">
         A seamless experience for you and your user
       </h6>
+
       <Card
         size="large"
         additionalCSS="bg-black flex-row justify-center items-center"
@@ -18,7 +19,9 @@ export default function Process() {
           performance of their portfolio without leaving your app.
         </h6>
       </Card>
-      <div className="flex flex-row">
+
+
+      <div className="flex flex-row justify-center flex-wrap">
         <Card size="x-small" additionalCSS="bg-blue-500">
           <h6>1. Integration Request</h6>
           <p>
@@ -47,6 +50,7 @@ export default function Process() {
             investment portfolios.
           </p>
         </Card>
+      
       </div>
       <h2>Ready to get started?</h2>
       <ButtonLink href="https://investing.chace.co.in/contact">
